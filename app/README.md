@@ -3,6 +3,9 @@ readme_content = """
 
 Bu proje, **React**, **Vite**, **Tailwind CSS** ve **Socket.io** kullanarak geliştirilmiş bir **Okey Oyunu** uygulamasıdır. Oyuncuların gerçek zamanlı olarak birbirleriyle etkileşimde bulunabileceği bir masa oyunu sunar.
 
+
+<img src="public/game_screen.png">
+
 ## Özellikler
 - **Gerçek Zamanlı Oyun**: Socket.io ile oyuncular arasında anlık iletişim.
 - **Sürükle Bırak (Drag & Drop)**: Okey taşlarını kolayca hareket ettirebilme.
