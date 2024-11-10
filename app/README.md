@@ -6,6 +6,7 @@ Bu proje, **React**, **Vite**, **Tailwind CSS** ve **Socket.io** kullanarak geli
 
 <img src="public/game_screen.png">
 
+
 ## Özellikler
 - **Gerçek Zamanlı Oyun**: Socket.io ile oyuncular arasında anlık iletişim.
 - **Sürükle Bırak (Drag & Drop)**: Okey taşlarını kolayca hareket ettirebilme.
