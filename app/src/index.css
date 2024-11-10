@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: teal;
+}
+
+
+.rack::before, .rack::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    width: 10px;
+    background: #6c5c43;
+    border-radius: 5px;
+}
+.rack::before {
+    left: 1px;
+}
+.rack::after {
+    right: 1px;
+}
+.tile{
+    @apply w-14;
+    @apply h-20;
+    @apply border-2;
+    @apply border-gray-300;
+    @apply rounded-lg;
+    @apply cursor-pointer;
+}
+
+.emptyTile{
+    @apply w-14;
+    @apply h-20;
+
+    @apply border-gray-300;
+    @apply rounded-lg;
+    @apply cursor-pointer;
+}
