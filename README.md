@@ -28,7 +28,7 @@ npm install
 nodemon server.js
 ```
 
-Sunucu başarılı bir şekilde başlatıldığında, Socket.io sunucunuz **localhost:3000** adresinde çalışacaktır.
+Sunucu başarılı bir şekilde başlatıldığında, Socket.io sunucunuz **localhost:4000** adresinde çalışacaktır.
 
 ### 2. Uygulama (Client) Kurulumu
 
